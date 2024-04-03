@@ -1,7 +1,7 @@
 local ft = require("guard.filetype")
 
 ft("lua"):fmt({ cmd = "stylua", args = { "-" }, stdin = true })
-ft("typescript,javascript,typescriptreact,json,html,css"):fmt({
+ft("typescript,javascript,typescriptreact,json,html,css,markdown"):fmt({
 	cmd = "prettier",
 	args = {
 		"--tab-width=4",

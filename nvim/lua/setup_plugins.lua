@@ -64,6 +64,7 @@ return require("packer").startup(function(use)
 			"nvimdev/guard-collection",
 		},
 	})
+	use("instant-markdown/vim-instant-markdown")
 	use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
 
 	use({
