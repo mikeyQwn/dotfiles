@@ -1,0 +1,29 @@
+[font]
+size = 18
+
+[font.bold]
+family = "SauceCodePro NF Medium"
+style = "Bold"
+
+[font.bold_italic]
+family = "SauceCodePro NF Bold"
+style = "Bold Italic"
+
+[font.italic]
+family = "SauceCodePro NF Medium"
+style = "Italic"
+
+[font.normal]
+family = "SauceCodePro NF Medium"
+style = "Regular"
+
+[shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/bin/bash"
+
+[window]
+opacity = 0.6
+
+[window.dimensions]
+columns = 157
+lines = 38
