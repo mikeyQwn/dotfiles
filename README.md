@@ -9,3 +9,11 @@ My config files for a quick clone
 ```shell
 $ git clone https://github.com/mikeyQwn/dotfiles
 ```
+
+### Migration
+
+-   Ubuntu:
+
+```shell
+$ sudo -E bash migrate_ubuntu
+```
